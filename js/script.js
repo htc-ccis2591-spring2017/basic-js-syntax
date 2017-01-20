@@ -6,14 +6,15 @@
 function sayHello() {
 
     // Make a variable called name and set it to your first name.
-
+    var name = "Lance"    
 
     //Make a variable called message and using the name variable from above,
     // set it to be something like:  "Hello, Mary.  Very nice to meet you."
-
+    var message = "Greetings, " + name + ".";
+    
 
     // Log the message to the console.  Use console.log()
-
+    console.log(message)
 
 
 }
@@ -21,23 +22,23 @@ function sayHello() {
 function evenOrOdd() {
 
     // Make a variable called number, and set it to a number between 1 and 10
-
+    
 
     // Write a message (not just the number) to the console saying the value of the number
+    
 
 
     // Use the modulus operator and an if statement to display a message
     // in the console that says whether the number is even or odd
 
+  
 
-
-
-}
 
 function countToTen() {
 
     // Write a for loop to count from 1 to 10
     // Use console.log() inside the loop to write out each number
+   
 
 
 
