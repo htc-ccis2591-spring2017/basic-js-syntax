@@ -7,12 +7,12 @@ function sayHello() {
 
     // Make a variable called name and set it to your first name.
 
-let name = "Hai";
+var name = "Hai";
 
     //Make a variable called message and using the name variable from above,
     // set it to be something like:  "Hello, Mary.  Very nice to meet you."
 
-let message = "Hello, " + name + "." + " Very nice to meet you.";
+var message = "Hello, " + name + "." + " Very nice to meet you.";
     
     // Log the message to the console.  Use console.log()
 
@@ -24,7 +24,7 @@ function evenOrOdd() {
 
     // Make a variable called number, and set it to a number between 1 and 10
 
-let number = 9;
+var number = 9;
     
     // Write a message (not just the number) to the console saying the value of the number
     
@@ -51,7 +51,7 @@ function countToTen() {
     // Write a for loop to count from 1 to 10
     // Use console.log() inside the loop to write out each number
 
-for (let roll = 1; roll < 11; roll++){
+for (var roll = 1; roll < 11; roll++){
     
     console.log(roll);
 
@@ -63,7 +63,7 @@ function addNumbers() {
 
     // Make an array of 5 numbers, at least one number should be negative
 
-let array = [-3, 1, 2, 4, 50];
+var array = [-3, 1, 2, 4, 50];
 
     // Write the array to the console
 
@@ -71,7 +71,7 @@ console.log(array);
     
     // Make a variable called total, set it to 0
 
-let total = 0;
+var total = 0;
     
     // Use a for loop to set total to the sum of all of the numbers in the array
 
