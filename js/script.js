@@ -4,67 +4,66 @@
  */
 
 function sayHello() {
-
-    // Make a variable called name and set it to your first name.
-
-
-    //Make a variable called message and using the name variable from above,
-    // set it to be something like:  "Hello, Mary.  Very nice to meet you."
-
-
-    // Log the message to the console.  Use console.log()
-
-
+    
+    
+    var name = 'Josh';
+    var message = 'Hello ' + name + '.  Nice to meet you!';
+    
+    console.log(message);
+    
 
 }
 
 function evenOrOdd() {
+    
+    var number = 5;
+    console.log('Five');
+    
+    if ((number %2) ===1){
+        console.log("The number is odd.");}
+    else
+        {
+            console.log("The number is even.");
+        }
+    }
 
-    // Make a variable called number, and set it to a number between 1 and 10
-
-
-    // Write a message (not just the number) to the console saying the value of the number
-
-
-    // Use the modulus operator and an if statement to display a message
-    // in the console that says whether the number is even or odd
-
-
-
-
-}
 
 function countToTen() {
 
-    // Write a for loop to count from 1 to 10
-    // Use console.log() inside the loop to write out each number
-
+for (var count = 1; count < 11; count++)
+{
+    console.log(count);
+}
 
 
 
 }
 
 function addNumbers() {
-
-    // Make an array of 5 numbers, at least one number should be negative
-
-
-    // Write the array to the console
-
-
-    // Make a variable called total, set it to 0
-
-
-    // Use a for loop to set total to the sum of all of the numbers in the array
-
-
-
-
-    // Write a message to the console saying the value of total
-
-
-    // Use an if statement to write a message to the console that says
-    // whether total is greater than, less than, or equal to 50.
+    
+    var array = [ -5, 25, 10, 7 , 12];
+    
+    console.log(array);
+    
+    var total = 0;
+    
+    for (i=0; i < array.length; i++)
+        {
+            total = total + array[i];
+        }
+    
+if (total>50)
+    {
+        console.log("Total is greater than 50.")
+    }
+else if (total<50)
+    {
+        console.log("Total is less than 50.")
+    }
+else
+    {
+        console.log("Total is equal to 50.")
+    }
 
 
 }
