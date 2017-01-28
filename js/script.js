@@ -43,29 +43,22 @@ function countToTen() {
     }
 }
 
+
 function addNumbers() {
 
-    // Make an array of 5 numbers, at least one number should be negative
     var arrayNumb = [-10,34,3,0,5];
 
-    // Write the array to the console
     console.log(arrayNumb);
 
 
-    // Make a variable called total, set it to 0
     var total = 0;
-
-    // Use a for loop to set total to the sum of all of the numbers in the array
 
     for(var i in arrayNumb ) {
         total += arrayNumb[i];
     }
 
-    // Write a message to the console saying the value of total
     console.log("We add up the numbers to get " + total + " as our total")
 
-    // Use an if statement to write a message to the console that says
-    // whether total is greater than, less than, or equal to 50.
     if (total > 50){
         console.log("That is probably bigger than 50...")
     }
@@ -75,8 +68,6 @@ function addNumbers() {
     else{
         console.log("That isn't close to a 50...")
     }
-        
-
 }
 
 
